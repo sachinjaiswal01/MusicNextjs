@@ -1,0 +1,55 @@
+{
+    "courses": [
+      {
+        "id": 1,
+        "title": "Guitar Fundamentals",
+        "slug": "guitar-fundamentals",
+        "description": "Learn the basics of playing guitar with our comprehensive beginner's course.",
+        "price": 99.99,
+        "instructor": "John Doe",
+        "isFeatured": true,
+        "image": "/courses/guitar.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Piano Essentials",
+        "slug": "piano-essentials",
+        "description": "Master piano fundamentals with hands-on lessons designed for beginners.",
+        "price": 79.99,
+        "instructor": "Jane Smith",
+        "isFeatured": false,
+        "image": "/courses/piano.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Digital Photography",
+        "slug": "digital-photography",
+        "description": "Learn how to take stunning photographs with your DSLR or smartphone.",
+        "price": 59.99,
+        "instructor": "Alan Walker",
+        "isFeatured": true,
+        "image": "/courses/photography.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Coding for Beginners",
+        "slug": "coding-for-beginners",
+        "description": "Get started with coding and learn the basics of programming languages.",
+        "price": 49.99,
+        "instructor": "Emily Davis",
+        "isFeatured": false,
+        "image": "/courses/coding.jpg"
+      },
+      {
+        "id": 5,
+        "title": "Advanced Cooking Techniques",
+        "slug": "advanced-cooking-techniques",
+        "description": "Take your cooking skills to the next level with expert tips and recipes.",
+        "price": 89.99,
+        "instructor": "Gordon Chef",
+        "isFeatured": true,
+        "image": "/courses/cooking.jpg"
+      }
+    ]
+  }
+  
