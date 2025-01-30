@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg"
+        "image": "/course/blues.jpg"
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
         "price": 79.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
-        "image": "/courses/piano.jpg"
+        "image": "/course/blues.jpg"
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "price": 59.99,
         "instructor": "Alan Walker",
         "isFeatured": true,
-        "image": "/courses/photography.jpg"
+        "image": "/course/blues.jpg"
       },
       {
         "id": 4,
@@ -38,7 +38,7 @@
         "price": 49.99,
         "instructor": "Emily Davis",
         "isFeatured": false,
-        "image": "/courses/coding.jpg"
+        "image": "/course/blues.jpg"
       },
       {
         "id": 5,
@@ -48,7 +48,7 @@
         "price": 89.99,
         "instructor": "Gordon Chef",
         "isFeatured": true,
-        "image": "/courses/cooking.jpg"
+        "image": "/course/blues.jpg"
       }
     ]
   }
