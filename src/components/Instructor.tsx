@@ -53,7 +53,7 @@ function Instructor() {
     return (
         <div className="md:h-[55rem] flex items-center justify-center overflow-hidden">
             {/* Ensure BackgroundBeamsWithCollision is functional */}
-            <BackgroundBeamsWithCollision className="md:h-[55rem]  max-w-screen-2xl mx-auto flex flex-col items-center justify-center h-full">
+            <BackgroundBeamsWithCollision className="md:h-[55rem]  max-w-screen-3xl mx-auto flex flex-col items-center justify-center h-full">
                 <h2 className="text-2xl md:text-4xl lg:text-7xl font-bold text-center  dark:text-white font-sans mb-8">
                     Meet Our Instructors{" "}
                     <p className="text-base md:text-lg text-white text-center mb-4">
