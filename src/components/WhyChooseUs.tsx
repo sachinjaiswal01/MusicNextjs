@@ -49,7 +49,7 @@ const content = [
 
 function WhyChooseUs() {
   return (
-    <div className="py-12">
+    <div className="py-12 md:h-[55rem]">
       <StickyScroll content={content} />
     </div>
   )
