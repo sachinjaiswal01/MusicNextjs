@@ -23,7 +23,7 @@ export const MenuItem = ({
   setActive: (item: string) => void;
   active: string | null;
   item: string;
-  children?: React.ReactNode;
+  children?: React.ReactNode; // Explicitly typing children as React.ReactNode
 }) => {
   return (
     <div onMouseEnter={() => setActive(item)} className="relative ">
@@ -39,7 +39,7 @@ export const MenuItem = ({
           animate={{ opacity: 1, scale: 1, y: 0 }}
           transition={transition}
         >
-          {active === item &&  (
+          {active === item && (
             <div className="absolute top-[calc(100%_+_1.2rem)] left-1/2 transform -translate-x-1/2 pt-4">
               <motion.div
                 transition={transition}
@@ -61,9 +61,8 @@ export const MenuItem = ({
   );
 };
 
-
 interface HoveredLinkProps extends LinkProps {
-  children: React.ReactNode;
+  children: React.ReactNode; // Explicitly typing children as React.ReactNode
 }
 
 export const Menu = ({
@@ -71,7 +70,7 @@ export const Menu = ({
   children,
 }: {
   setActive: (item: string | null) => void;
-  children: React.ReactNode;
+  children: React.ReactNode; // Explicitly typing children as React.ReactNode
 }) => {
   return (
     <nav
@@ -114,7 +113,6 @@ export const ProductItem = ({
     </Link>
   );
 };
-
 
 export const HoveredLink = ({ children, ...rest }: HoveredLinkProps) => {
   return (

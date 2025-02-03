@@ -99,7 +99,6 @@ export const BackgroundBeamsWithCollision = ({
 
 const CollisionMechanism = React.forwardRef<
   HTMLDivElement,
-  
   {
     containerRef: React.RefObject<HTMLDivElement>;
     parentRef: React.RefObject<HTMLDivElement>;
@@ -115,7 +114,7 @@ const CollisionMechanism = React.forwardRef<
       repeatDelay?: number;
     };
   }
->(({ parentRef, containerRef, beamOptions = {} },ref) => {
+>(({ parentRef, containerRef, beamOptions = {} }, _ref) => {  // Removed 'ref' as it's not used
   const beamRef = useRef<HTMLDivElement>(null);
   const [collision, setCollision] = useState<{
     detected: boolean;
@@ -159,7 +158,7 @@ const CollisionMechanism = React.forwardRef<
     const animationInterval = setInterval(checkCollision, 50);
 
     return () => clearInterval(animationInterval);
-  }, [cycleCollisionDetected, containerRef]);
+  }, [cycleCollisionDetected, parentRef]);  // Added 'parentRef' to dependency array
 
   useEffect(() => {
     if (collision.detected && collision.coordinates) {
