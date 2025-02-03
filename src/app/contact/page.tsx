@@ -15,7 +15,7 @@ function Page() {
           </h1>
           </Link>
           <p className="font-normal text-base text-slate-400 mb-4 relative z-50 text-center">
-            We're here to help with any questions about our courses, programs, or events.
+            We&apos;sre here to help with any questions about our courses, programs, or events.
             Reach out and let us know how we can assist you in your musical journey.
           </p>
      
